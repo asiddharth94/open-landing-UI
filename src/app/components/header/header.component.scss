@@ -1,0 +1,62 @@
+@mixin adjustDisplay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-header {
+  @include adjustDisplay;
+  margin-bottom: 100px;
+}
+
+.logo {
+  height: 90px;
+  width: 90px;
+  margin-left: 90px;
+}
+
+.app-global-nav {
+  width: 700px;
+}
+
+.app-global-nav > ul {
+  width: 600px;
+  @include adjustDisplay;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.nav-option {
+  font-size: 25px;
+}
+
+.btn {
+  height: 40px;
+  text-align: center;
+  letter-spacing: 0px;
+  box-shadow: 0px 0px 20px #00000033;
+  border: 2px solid #663399;
+  border-radius: 24px;
+  cursor: pointer;
+  opacity: 1;
+}
+.btn:focus {
+  outline: none;
+}
+
+.btn-login {
+  color: #663399;
+  width: 90px;
+  background: transparent;
+}
+
+.btn-start {
+  background: transparent linear-gradient(90deg, #9f62c9 0%, #663399 100%) 0% 0%
+    no-repeat padding-box;
+  color: #ffffff;
+  width: 125px;
+  border: none;
+}

@@ -1,0 +1,14 @@
+.app-card {
+  box-sizing: border-box;
+  width: 310px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.07);
+  background: rgb(255, 255, 255);
+  opacity: 1;
+  padding: 1.5rem;
+}
+
+.app-card:hover {
+  background: rgba(218, 205, 233, 255);
+  opacity: 0.7;
+}
